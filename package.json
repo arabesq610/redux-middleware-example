@@ -1,11 +1,12 @@
 {
   "scripts": {
-  	"prestart": "yarn format",
-  	"start": "node stopwatch",
+    "prestart": "yarn format",
+    "start": "node stopwatch",
     "format": "node_modules/.bin/prettier --write --single-quote --print-width=120 webpack.config.js \"./**/*.{js,jsx}\""
   },
   "dependencies": {
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "superagent": "^3.8.2"
   },
   "devDependencies": {
     "prettier": "^1.9.1"
